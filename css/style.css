@@ -1,0 +1,140 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.jumbo_bg {
+    padding: 10%;
+    background: url(../images/top_bg.jpeg)no-repeat;
+    color: #fff;
+    background-size: 100%;
+    height: 100%;
+}
+
+.jumbo_bg span {
+    color: #00D646;
+}
+
+.btn_style {
+    background-color: #000;
+    color: #00D646;
+    border: 0;
+}
+
+.btn_style:hover {
+    background-color: #00D646;
+}
+
+.service_con {
+    text-align: center;
+}
+
+.service_con img {
+    width: 128px;
+}
+
+.service_con h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.service_con .tit_sub {
+    padding-bottom: 50px;
+    font-size: 18px;
+    color: #959595;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.con_box h3 {
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+
+.con_box p {
+    padding-bottom: 30px;
+    font-size: 17px;
+    color: #3e3e3e;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.portofolio {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.portfolio_item {
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.portfolio_item img {
+    width: 100%;
+}
+.portfolio_item .txt_wrap {
+    padding: 20px;
+}
+.portfolio_item .txt_wrap p {
+    font-size: 16px;
+    font-style: italic;
+    color: #b0b0b0;
+}
+.portfolio_link {
+    display: block;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.overlay1 {
+    background: #ffd300;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 5;
+}
+.overlay1:hover {
+    opacity: 0.7;
+    transition-duration: 1s;
+}
+.overlay1 p {
+    color: #fff;
+    font-size: 170px;
+    opacity: 1;
+    position: absolute;
+    top: 9%;
+    left: 40%;
+}
+.portfolio_link:hover .overlay {
+    height: 100%;
+}
+.overlay p {
+    position: absolute;
+    margin-left: -20px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
